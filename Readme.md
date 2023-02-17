@@ -1,7 +1,7 @@
 # Личный проект «Кекстаграм»
 
 * Студент: [Иван Деренюга](https://up.htmlacademy.ru/javascript/28/user/1384625).
-* Наставник: `Неизвестно`.
+* Наставник: [Арсений Березин](https://up.htmlacademy.ru/profession/frontender/13/javascript/28/tutors).
 
 ---
 
