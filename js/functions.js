@@ -1,6 +1,6 @@
 // первая задача
 function isLessOrEqual (string, length) {
-  return (string.length <= length) ? 'true' : 'false';
+  return (string.length <= length);
 }
 isLessOrEqual ('Карточка', 10);
 
