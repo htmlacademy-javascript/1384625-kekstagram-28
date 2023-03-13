@@ -26,6 +26,8 @@ const COMMENT_MESSAGES = [
 ];
 const AVATAR_COUNT = 6;
 const COMMENTS_COUNT = 2;
+const SENTENCES_MIN_COUNT = 1;
+const SENTENCES_MAX_COUNT = 2;
 
 const getRandomInteger = (a, b) => {
   const lower = Math.ceil(Math.min(a, b));
@@ -46,7 +48,7 @@ const createIdGenerator = () => {
 };
 
 const createMessage = () =>
-  Array.from ({ length: getRandomInteger (1, 2)}, () =>
+  Array.from ({ length: getRandomInteger (SENTENCES_MIN_COUNT, SENTENCES_MAX_COUNT)}, () =>
     getRandomArrayElement (COMMENT_MESSAGES)).join('');
 
 const createComment = () => ({
